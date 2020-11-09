@@ -26,6 +26,7 @@ a:hover {
     background-color: lightgreen;
 }
 .prg {
+    width: 500px;
     text-indent: 2em;
     margin:10px;
     color: rgb(77, 74, 74);
@@ -79,4 +80,9 @@ a:hover {
     width: 400px;
     height:auto;
     border-radius: 10px;
+}
+.bio {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
