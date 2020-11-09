@@ -1,0 +1,71 @@
+body {
+
+    margin-top: 100px;
+}
+nav {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    top: 0;
+    right:0;
+    position: fixed;
+}
+.nav_menu {
+    margin-top:5px;
+}
+a {
+    padding:10px;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(77,74,74);
+}
+a:hover {
+    color:white;
+    background-color: lightgreen;
+}
+.prg {
+    text-indent: 2em;
+    margin:10px;
+    color: rgb(77, 74, 74);
+    font-size: 18px;
+    word-wrap: normal;
+    line-height: 1.5;
+}
+.prg:first-letter {
+    font-size: 30px;
+}
+.prg_career {
+    line-height: 30px;
+    color: rgb(77,74,74);
+    font-size: 18px;
+    word-wrap: break-word;
+}
+.pimg {
+    border-radius: 50%;
+    width:250px;
+    height: auto;
+}
+.contact {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.title {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.clip_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.clip {
+    width: 500px;
+    height:400px;
+}
