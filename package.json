@@ -1,0 +1,24 @@
+{
+  "name": "joa",
+  "version": "1.0.0",
+  "description": "Jiwon Joa Kim Website",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trebom/joa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trebom/joa/issues"
+  },
+  "homepage": "https://trebom.github.io/joa"
+}

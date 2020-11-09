@@ -69,3 +69,14 @@ a:hover {
     width: 500px;
     height:400px;
 }
+.pics { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+.pic {
+    width: 400px;
+    height:auto;
+    border-radius: 10px;
+}
